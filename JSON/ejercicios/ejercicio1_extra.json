@@ -1,0 +1,11 @@
+{
+  "marca": "Toyota",
+  "modelo": "Corolla",
+  "matricula": "1234ABC",
+  "kilometros": 130000,
+  "datosConductor": {
+    "nombre": "Pepe",
+    "apellido": "Alemán",
+    "email": "pepe@email.com"
+  }
+}
