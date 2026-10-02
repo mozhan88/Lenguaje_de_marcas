@@ -1,0 +1,18 @@
+Ejercicio 3 — Número vs. texto
+
+1. ¿Qué tipo de dato tiene precio?
+String
+
+2. ¿Qué tipo de dato tiene stock?
+Number
+
+3. ¿Son del mismo tipo?
+No, no son del mismo tipo.
+
+4. Modifica el JSON para que precio sea un número en lugar de texto.
+
+{
+  "producto": "Ordenador",
+  "precio": 1200,
+  "stock": 15
+}
