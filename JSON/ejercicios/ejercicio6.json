@@ -1,0 +1,10 @@
+{
+  "nombre": "Mohzan",
+  "apellidos": "Javanpour",
+  "edad": 23,
+  "aficiones": [
+    "fútbol",
+    "música",
+    "videojuegos"
+  ]
+}
