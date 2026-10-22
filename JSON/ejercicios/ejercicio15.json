@@ -1,0 +1,49 @@
+{
+  "pedidos": [
+    {
+      "numero": 1,
+      "cliente": {
+        "nombre": "Carlos Ruiz",
+        "email": "carlos@email.com",
+        "direccion": {
+          "calle": "Calle Mayor",
+          "ciudad": "Valencia",
+          "codigoPostal": "46001"
+        }
+      },
+      "producto": "Portatil",
+      "cantidad": 1,
+      "entregado": true
+    },
+    {
+      "numero": 2,
+      "cliente": {
+        "nombre": "Lucia Martin",
+        "email": "lucia@email.com",
+        "direccion": {
+          "calle": "Calle Colon",
+          "ciudad": "Madrid",
+          "codigoPostal": "28001"
+        }
+      },
+      "producto": "Movil",
+      "cantidad": 2,
+      "entregado": false
+    },
+    {
+      "numero": 3,
+      "cliente": {
+        "nombre": "Diego Lopez",
+        "email": "diego@email.com",
+        "direccion": {
+          "calle": "Calle Sol",
+          "ciudad": "Sevilla",
+          "codigoPostal": "41001"
+        }
+      },
+      "producto": "Auriculares",
+      "cantidad": 3,
+      "entregado": true
+    }
+  ]
+}
