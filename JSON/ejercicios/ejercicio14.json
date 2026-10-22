@@ -1,0 +1,22 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "Minecraft",
+      "genero": "Aventura",
+      "precio": 25,
+      "multijugador": true
+    },
+    {
+      "titulo": "Fortnite",
+      "genero": "Battle Royale",
+      "precio": 10,
+      "multijugador": true
+    },
+    {
+      "titulo": "The Sims 4",
+      "genero": "Simulacion",
+      "precio": 40,
+      "multijugador": false
+    }
+  ]
+}
