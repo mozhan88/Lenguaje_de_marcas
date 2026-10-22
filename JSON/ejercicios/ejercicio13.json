@@ -1,0 +1,30 @@
+{
+  "tienda": {
+    "productos": [
+      {
+        "nombre": "Portatil",
+        "precio": 750,
+        "categoria": "Electronica",
+        "disponible": true
+      },
+      {
+        "nombre": "Camiseta",
+        "precio": 20,
+        "categoria": "Ropa",
+        "disponible": true
+      },
+      {
+        "nombre": "Libro",
+        "precio": 15,
+        "categoria": "Educacion",
+        "disponible": false
+      },
+      {
+        "nombre": "Mochila",
+        "precio": 35,
+        "categoria": "Accesorios",
+        "disponible": true
+      }
+    ]
+  }
+}
