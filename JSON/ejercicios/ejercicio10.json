@@ -1,0 +1,26 @@
+{
+  "tienda": {
+    "nombre": "ElectroMax",
+    "direccion": {
+      "calle": "Calle Mayor",
+      "ciudad": "Valencia"
+    },
+    "productos": [
+      {
+        "nombre": "Portatil",
+        "precio": 700,
+        "disponible": true
+      },
+      {
+        "nombre": "Movil",
+        "precio": 400,
+        "disponible": true
+      },
+      {
+        "nombre": "Auriculares",
+        "precio": 50,
+        "disponible": false
+      }
+    ]
+  }
+}
