@@ -1,0 +1,109 @@
+
+{
+  "tienda": {
+    "nombre": "TechStore",
+    "abierta": true,
+    "contacto": {
+      "telefono": "612345678",
+      "email": "info@techstore.es"
+    },
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Ordenadores",
+        "productos": [
+          {
+            "sku": "ORD001",
+            "nombre": "Portatil Lenovo",
+            "precio": 799.99,
+            "stock": 10,
+            "etiquetas": ["ordenador", "portatil", "tecnologia"],
+            "dimensiones": {
+              "alto": 2,
+              "ancho": 36,
+              "fondo": 25
+            },
+            "disponible": true
+          },
+          {
+            "sku": "ORD002",
+            "nombre": "Teclado mecanico",
+            "precio": 59.95,
+            "stock": 25,
+            "etiquetas": ["teclado", "gaming"],
+            "dimensiones": {
+              "alto": 4,
+              "ancho": 44,
+              "fondo": 14
+            },
+            "disponible": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Telefonos",
+        "productos": [
+          {
+            "sku": "TEL001",
+            "nombre": "Smartphone Samsung",
+            "precio": 499.99,
+            "stock": 8,
+            "etiquetas": ["movil", "android"],
+            "dimensiones": {
+              "alto": 15,
+              "ancho": 7,
+              "fondo": 1
+            },
+            "disponible": true
+          },
+          {
+            "sku": "TEL002",
+            "nombre": "Cargador USB-C",
+            "precio": 19.90,
+            "stock": 0,
+            "etiquetas": ["cargador", "usb-c"],
+            "dimensiones": {
+              "alto": 5,
+              "ancho": 4,
+              "fondo": 3
+            },
+            "disponible": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Accesorios",
+        "productos": [
+          {
+            "sku": "ACC001",
+            "nombre": "Raton inalambrico",
+            "precio": 24.50,
+            "stock": 15,
+            "etiquetas": ["raton", "inalambrico"],
+            "dimensiones": {
+              "alto": 4,
+              "ancho": 7,
+              "fondo": 11
+            },
+            "disponible": true
+          },
+          {
+            "sku": "ACC002",
+            "nombre": "Auriculares Bluetooth",
+            "precio": 39.99,
+            "stock": 12,
+            "etiquetas": ["audio", "bluetooth"],
+            "dimensiones": {
+              "alto": 18,
+              "ancho": 16,
+              "fondo": 8
+            },
+            "disponible": true
+          }
+        ]
+      }
+    ]
+  }
+}

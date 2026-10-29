@@ -1,0 +1,152 @@
+{
+  "nombre": "Clinica Salud",
+  "direccion": {
+    "calle": "Calle Mayor 25",
+    "ciudad": "Valencia",
+    "codigoPostal": "46001"
+  },
+  "configuracion": {
+    "horarioApertura": "08:00",
+    "horarioCierre": "20:00",
+    "duracionCitaMinutos": 30
+  },
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Laura Garcia",
+      "especialidad": "Medicina general",
+      "colegiado": "MED1001",
+      "consultas": ["Lunes", "Martes", "Miercoles"]
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Ruiz",
+      "especialidad": "Cardiologia",
+      "colegiado": "MED1002",
+      "consultas": ["Martes", "Jueves", "Viernes"]
+    },
+    {
+      "id": 3,
+      "nombre": "Ana Torres",
+      "especialidad": "Dermatologia",
+      "colegiado": "MED1003",
+      "consultas": ["Lunes", "Miercoles", "Viernes"]
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 101,
+      "nombre": "Maria Lopez",
+      "fechaNacimiento": "1990-04-12",
+      "seguro": {
+        "compania": "SaludPlus",
+        "numeroPoliza": 123456
+      },
+      "alergias": ["Penicilina"],
+      "historial": [
+        {
+          "fecha": "2026-09-10",
+          "diagnostico": "Infeccion respiratoria",
+          "tratamiento": {
+            "medicamento": "Amoxicilina",
+            "dosis": "500 mg",
+            "duracionDias": 7
+          }
+        },
+        {
+          "fecha": "2026-10-01",
+          "diagnostico": "Revision general",
+          "tratamiento": {
+            "medicamento": "Paracetamol",
+            "dosis": "500 mg",
+            "duracionDias": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "nombre": "Pedro Sanchez",
+      "fechaNacimiento": "1985-11-20",
+      "seguro": {
+        "compania": "MedicaVida",
+        "numeroPoliza": 789012
+      },
+      "alergias": [],
+      "historial": [
+        {
+          "fecha": "2026-08-15",
+          "diagnostico": "Hipertension",
+          "tratamiento": {
+            "medicamento": "Enalapril",
+            "dosis": "10 mg",
+            "duracionDias": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "nombre": "Sofia Martin",
+      "fechaNacimiento": "2000-02-03",
+      "seguro": {
+        "compania": "Particular",
+        "numeroPoliza": null
+      },
+      "alergias": ["Latex", "Polvo"],
+      "historial": [
+        {
+          "fecha": "2026-07-22",
+          "diagnostico": "Dermatitis",
+          "tratamiento": {
+            "medicamento": "Crema hidratante",
+            "dosis": "Aplicacion diaria",
+            "duracionDias": 14
+          }
+        }
+      ]
+    }
+  ],
+  "citas": [
+    {
+      "id": 201,
+      "pacienteId": 101,
+      "medicoId": 1,
+      "fecha": "2026-10-26T09:00:00",
+      "confirmada": true,
+      "notas": "Revision general"
+    },
+    {
+      "id": 202,
+      "pacienteId": 102,
+      "medicoId": 2,
+      "fecha": "2026-10-26T10:00:00",
+      "confirmada": true,
+      "notas": "Control de tension arterial"
+    },
+    {
+      "id": 203,
+      "pacienteId": 103,
+      "medicoId": 3,
+      "fecha": "2026-10-27T11:30:00",
+      "confirmada": false,
+      "notas": null
+    },
+    {
+      "id": 204,
+      "pacienteId": 101,
+      "medicoId": 2,
+      "fecha": "2026-10-28T12:00:00",
+      "confirmada": true,
+      "notas": "Consulta de seguimiento"
+    },
+    {
+      "id": 205,
+      "pacienteId": 102,
+      "medicoId": 1,
+      "fecha": "2026-10-29T15:00:00",
+      "confirmada": false,
+      "notas": "Pendiente de confirmacion"
+    }
+  ]
+}

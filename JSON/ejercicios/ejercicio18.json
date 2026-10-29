@@ -1,0 +1,121 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "ana",
+      "perfil": {
+        "bio": "Amante de la tecnologia",
+        "ubicacion": "Valencia",
+        "verificado": true
+      },
+      "siguiendo": [2, 3]
+    },
+    {
+      "id": 2,
+      "usuario": "carlos",
+      "perfil": {
+        "bio": "Fotografo y viajero",
+        "ubicacion": "Madrid",
+        "verificado": false
+      },
+      "siguiendo": [1]
+    },
+    {
+      "id": 3,
+      "usuario": "lucia",
+      "perfil": {
+        "bio": "Estudiante de informatica",
+        "ubicacion": "Barcelona",
+        "verificado": true
+      },
+      "siguiendo": [1, 2]
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": 101,
+      "autorId": 1,
+      "texto": "Mi primer proyecto web",
+      "fecha": "2026-10-09T14:30:00",
+      "reacciones": {
+        "meGusta": 15,
+        "risas": 2,
+        "sorpresa": 1
+      },
+      "hashtags": ["programacion", "web"]
+    },
+    {
+      "id": 102,
+      "autorId": 2,
+      "texto": "Un paseo por Madrid",
+      "fecha": "2026-10-10T10:15:00",
+      "reacciones": {
+        "meGusta": 28,
+        "risas": 5,
+        "sorpresa": 3
+      },
+      "hashtags": ["viajes", "Madrid"]
+    },
+    {
+      "id": 103,
+      "autorId": 3,
+      "texto": "Hoy toca estudiar JSON",
+      "fecha": "2026-10-11T18:00:00",
+      "reacciones": {
+        "meGusta": 10,
+        "risas": 1,
+        "sorpresa": 0
+      },
+      "hashtags": []
+    },
+    {
+      "id": 104,
+      "autorId": 1,
+      "texto": "Aprendiendo bases de datos",
+      "fecha": "2026-10-12T12:45:00",
+      "reacciones": {
+        "meGusta": 20,
+        "risas": 3,
+        "sorpresa": 2
+      },
+      "hashtags": ["datos", "tecnologia"]
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 201,
+      "publicacionId": 101,
+      "autorId": 2,
+      "texto": "Muy buen proyecto",
+      "editado": false
+    },
+    {
+      "id": 202,
+      "publicacionId": 101,
+      "autorId": 3,
+      "texto": "Me gusta mucho",
+      "editado": true
+    },
+    {
+      "id": 203,
+      "publicacionId": 102,
+      "autorId": 1,
+      "texto": "Que bonita ciudad",
+      "editado": false
+    },
+    {
+      "id": 204,
+      "publicacionId": 103,
+      "autorId": 2,
+      "texto": "Mucho animo con el estudio",
+      "editado": false
+    },
+    {
+      "id": 205,
+      "publicacionId": 104,
+      "autorId": 3,
+      "texto": "Las bases de datos son interesantes",
+      "editado": true
+    }
+  ]
+}

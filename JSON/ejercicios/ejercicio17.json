@@ -1,0 +1,152 @@
+{
+  "nombre": "Academia Digital",
+  "fundacion": 2015,
+  "sede": {
+    "ciudad": "Valencia",
+    "pais": "Espana",
+    "coordenadas": {
+      "lat": 39.4699,
+      "lng": -0.3763
+    }
+  },
+  "cursos": [
+    {
+      "codigo": "CUR001",
+      "titulo": "Programacion en Java",
+      "profesor": {
+        "nombre": "Carlos Martinez",
+        "especialidades": [
+          "Java",
+          "Programacion orientada a objetos"
+        ],
+        "contacto": {
+          "email": "carlos@academia.es",
+          "telefono": "611223344"
+        }
+      },
+      "horario": [
+        {
+          "dia": "Lunes",
+          "inicio": "09:00",
+          "fin": "11:00"
+        },
+        {
+          "dia": "Miercoles",
+          "inicio": "09:00",
+          "fin": "11:00"
+        }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Ana Lopez",
+          "activo": true,
+          "notas": [8.5, 9, 7.5],
+          "notaFinal": 8.3
+        },
+        {
+          "nombre": "Pablo Garcia",
+          "activo": true,
+          "notas": [6, 7, 8],
+          "notaFinal": 7
+        },
+        {
+          "nombre": "Lucia Torres",
+          "activo": false,
+          "notas": [7, 8.5],
+          "notaFinal": null
+        }
+      ]
+    },
+    {
+      "codigo": "CUR002",
+      "titulo": "Desarrollo Web",
+      "profesor": {
+        "nombre": "Maria Sanchez",
+        "especialidades": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "contacto": {
+          "email": "maria@academia.es",
+          "telefono": "622334455"
+        }
+      },
+      "horario": [
+        {
+          "dia": "Martes",
+          "inicio": "10:00",
+          "fin": "12:00"
+        },
+        {
+          "dia": "Jueves",
+          "inicio": "10:00",
+          "fin": "12:00"
+        }
+      ],
+      "alumnos": [
+        {
+          "nombre": "David Ruiz",
+          "activo": true,
+          "notas": [9, 8, 9.5],
+          "notaFinal": 8.8
+        },
+        {
+          "nombre": "Elena Perez",
+          "activo": true,
+          "notas": [7, 7.5, 8],
+          "notaFinal": 7.5
+        },
+        {
+          "nombre": "Javier Martin",
+          "activo": true,
+          "notas": [5.5, 6, 7],
+          "notaFinal": 6.2
+        }
+      ]
+    },
+    {
+      "codigo": "CUR003",
+      "titulo": "Bases de Datos y JSON",
+      "profesor": {
+        "nombre": "Laura Fernandez",
+        "especialidades": [
+          "SQL",
+          "JSON",
+          "Bases de datos"
+        ],
+        "contacto": {
+          "email": "laura@academia.es",
+          "telefono": "633445566"
+        }
+      },
+      "horario": [
+        {
+          "dia": "Viernes",
+          "inicio": "09:00",
+          "fin": "12:00"
+        }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Sofia Diaz",
+          "activo": true,
+          "notas": [9, 9.5, 10],
+          "notaFinal": 9.5
+        },
+        {
+          "nombre": "Daniel Moreno",
+          "activo": true,
+          "notas": [6.5, 7, 7.5],
+          "notaFinal": 7
+        },
+        {
+          "nombre": "Paula Romero",
+          "activo": false,
+          "notas": [],
+          "notaFinal": null
+        }
+      ]
+    }
+  ]
+}
