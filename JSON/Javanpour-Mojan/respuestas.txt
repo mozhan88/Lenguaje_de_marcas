@@ -1,0 +1,11 @@
+La clave nombre debe ir entre comillas dobles.
+
+Los valores de texto deben ir entre comillas dobles.
+
+"4" debe ser el número 4.
+
+True debe ser true.
+
+La coma final del array debe eliminarse.
+
+"null" debe ser null.
