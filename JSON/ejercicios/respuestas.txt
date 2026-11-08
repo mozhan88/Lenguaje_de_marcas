@@ -9,3 +9,41 @@ True debe ser true.
 La coma final del array debe eliminarse.
 
 "null" debe ser null.
+
+
+TAREA 2 
+
+Justificación de los tipos de datos:
+
+- estrellas: es un número porque representa la cantidad de estrellas del hotel.
+- codigoPostal: es un número según el tipo de dato utilizado en este ejercicio.
+- web: es null porque el hotel todavía no tiene página web.
+- activo: es un booleano porque indica si el hotel está activo o no.
+- coordenadas: es un array de números porque contiene la latitud y la longitud.
+- servicios y telefonos: son arrays de textos porque contienen varios valores de tipo string.
+
+
+TAREA 3 
+
+La propiedad habitaciones es un array de objetos porque el hotel tiene varias habitaciones.
+
+Cada habitación contiene sus propios datos, como el identificador, el número, el nombre, el precio, la capacidad y la disponibilidad.
+
+La propiedad ubicacion es un objeto anidado porque contiene la planta y la orientación.
+
+Las propiedades equipamiento y valoraciones son arrays porque pueden contener varios elementos.
+
+Cuando una habitación no tiene equipamiento o valoraciones, utilizamos arrays vacíos.
+
+
+TAREA 5 
+
+a) Ruta para acceder al importe de extras del desglose del pago de la primera reserva:
+
+hotel.reservas[0].pago.desglose.extras
+
+Ruta para acceder a la cantidad del segundo extra de la primera reserva:
+
+hotel.reservas[0].extras[1].cantidad
+
+
